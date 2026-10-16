@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dt.techsolutions — Sites, Sistemas e Suporte</title>
+<meta name="description" content="dt.techsolutions: criação de sites e sistemas, manutenção de computadores e suporte técnico online ou presencial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="loading">
+
+<div class="grain"></div>
+<div class="cursor"></div><div class="cursor-dot"></div>
+
+<div class="loader" id="loader">
+  <div class="mono">dt.techsolutions — iniciando sistema</div>
+  <div class="loader-count" id="count">0</div>
+  <div class="loader-bar"><span id="bar"></span></div>
+</div>
+
+<nav>
+  <a href="#topo" class="logo"><span class="logo-mark">D<span>T</span></span><span class="logo-text">DT TECH<br>SOLUTIONS</span></a>
+  <div class="nav-links mono">
+    <a href="#servicos">Serviços</a>
+    <a href="#por-que">Por que nós</a>
+    <a href="#processo">Processo</a>
+    <a href="#contato">Contato</a>
+  </div>
+  <button class="menu-btn" aria-label="Abrir menu"><span></span><span></span></button>
+</nav>
+<div class="mobile-menu">
+  <a href="#servicos">Serviços</a>
+  <a href="#por-que">Por que nós</a>
+  <a href="#processo">Processo</a>
+  <a href="#contato">Contato</a>
+</div>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="topo">
+    <div class="hero-grid"></div>
+    <canvas id="sphere"></canvas>
+    <div class="hero-content">
+      <div class="mono label">Sites · Sistemas · Suporte</div>
+      <h1>
+        <span class="line"><span>Seu site</span></span>
+        <span class="line"><span class="g">do seu jeito</span></span>
+        <span class="line"><span class="outline">e seu PC em dia</span></span>
+      </h1>
+      <div class="hero-bottom">
+        <p class="fade">Criamos sites e sistemas modernos, rápidos e responsivos para o seu negócio, projeto ou marca. E resolvemos os problemas do seu computador, com suporte online ou presencial.</p>
+        <div class="scroll-hint mono fade"><i></i>Role para explorar</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee-track" id="marquee">
+      <span>Sites</span><span class="o">Lojas virtuais</span><span>Sistemas</span><span class="o">Formatação</span><span>Suporte</span><span class="o">Manutenção</span>
+      <span>Sites</span><span class="o">Lojas virtuais</span><span>Sistemas</span><span class="o">Formatação</span><span>Suporte</span><span class="o">Manutenção</span>
+    </div>
+  </div>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto pad">
+    <div class="mono label">Quem somos</div>
+    <p id="manifesto">Somos a DT Tech Solutions. Não precisa entender de informática: ajudamos empresas que estão começando a transmitir credibilidade no digital e resolvemos os problemas do seu computador, com atendimento rápido e sem complicação.</p>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="servicos">
+    <div class="services-pin">
+      <div class="services-head">
+        <div>
+          <div class="mono label">Serviços</div>
+          <h2>O que<br>fazemos</h2>
+        </div>
+        <p>Da presença digital ao funcionamento do seu equipamento: uma única equipe para tudo o que envolve tecnologia.</p>
+      </div>
+      <div class="h-track" id="track">
+        <article class="card">
+          <div class="card-top mono"><span>01</span><span>Web</span></div>
+          <div class="card-icon"><svg viewBox="0 0 120 120"><rect x="10" y="20" width="100" height="72" rx="4"/><line x1="10" y1="34" x2="110" y2="34"/><circle cx="20" cy="27" r="2"/><circle cx="28" cy="27" r="2"/><rect x="22" y="46" width="40" height="8"/><line x1="22" y1="64" x2="98" y2="64"/><line x1="22" y1="74" x2="80" y2="74"/><line x1="40" y1="104" x2="80" y2="104"/></svg></div>
+          <div>
+            <h3>Criação de sites</h3>
+            <p class="card-desc">Sites modernos, rápidos e adaptados ao celular, pensados para converter os visitantes que chegam pelo seu Instagram.</p>
+            <ul><li>Sites institucionais</li><li>Lojas virtuais</li><li>Landing pages</li><li>Design responsivo</li></ul>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top mono"><span>02</span><span>Software</span></div>
+          <div class="card-icon"><svg viewBox="0 0 120 120"><polyline points="40,36 16,60 40,84"/><polyline points="80,36 104,60 80,84"/><line x1="68" y1="24" x2="52" y2="96"/></svg></div>
+          <div>
+            <h3>Sistemas sob medida</h3>
+            <p class="card-desc">Soluções desenvolvidas para a rotina da sua empresa, automatizando processos e organizando informações.</p>
+            <ul><li>Sistemas de gestão</li><li>Painéis e cadastros</li><li>Automação de tarefas</li></ul>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top mono"><span>03</span><span>Hardware</span></div>
+          <div class="card-icon"><svg viewBox="0 0 120 120"><rect x="34" y="34" width="52" height="52" rx="2"/><rect x="48" y="48" width="24" height="24"/><line x1="46" y1="20" x2="46" y2="34"/><line x1="60" y1="20" x2="60" y2="34"/><line x1="74" y1="20" x2="74" y2="34"/><line x1="46" y1="86" x2="46" y2="100"/><line x1="60" y1="86" x2="60" y2="100"/><line x1="74" y1="86" x2="74" y2="100"/><line x1="20" y1="46" x2="34" y2="46"/><line x1="20" y1="60" x2="34" y2="60"/><line x1="20" y1="74" x2="34" y2="74"/><line x1="86" y1="46" x2="100" y2="46"/><line x1="86" y1="60" x2="100" y2="60"/><line x1="86" y1="74" x2="100" y2="74"/></svg></div>
+          <div>
+            <h3>Manutenção de PC</h3>
+            <p class="card-desc">Não sabe resolver um problema no PC? Deixa com a DT. Diagnóstico e solução de erros, lentidão e muito mais.</p>
+            <ul><li>Formatação e instalação do Windows</li><li>Limpeza e otimização</li><li>Recuperação de arquivos</li><li>Configuração de programas</li></ul>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-top mono"><span>04</span><span>Suporte</span></div>
+          <div class="card-icon"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="40"/><circle cx="60" cy="60" r="18"/><line x1="32" y1="32" x2="47" y2="47"/><line x1="88" y1="32" x2="73" y2="47"/><line x1="32" y1="88" x2="47" y2="73"/><line x1="88" y1="88" x2="73" y2="73"/></svg></div>
+          <div>
+            <h3>Suporte técnico</h3>
+            <p class="card-desc">Atendimento online ou presencial, com agilidade e atenção para resolver o seu problema sem complicação.</p>
+            <ul><li>Conexão com internet e Wi-Fi</li><li>Planilhas e documentos</li><li>Ajuda para encontrar arquivos</li><li>Para quem não sabe mexer no computador</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why pad" id="por-que">
+    <div class="mono label">Por que ter um site</div>
+    <h2 class="reveal">Seu Instagram atrai. Seu site <span style="color:var(--muted)">convence.</span></h2>
+    <div class="why-grid">
+      <div class="why-item reveal">
+        <div class="mono">01 — Credibilidade</div>
+        <div class="big">+</div>
+        <p>Um site profissional mostra que a sua empresa é séria e transmite confiança a quem ainda não a conhece.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="mono">02 — Disponibilidade</div>
+        <div class="big">24/7</div>
+        <p>Seu site apresenta os seus serviços a qualquer hora, inclusive enquanto você está atendendo outros clientes.</p>
+      </div>
+      <div class="why-item reveal">
+        <div class="mono">03 — Mobile</div>
+        <div class="big">100%</div>
+        <p>Layouts adaptados a qualquer tela, porque a maior parte do seu público chega pelo celular.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="pad" id="processo">
+    <div class="mono label">Processo</div>
+    <div class="steps">
+      <div class="step"><span class="mono">01</span><h3>Conversa</h3><p>Entendemos o seu negócio, o seu público e o que você precisa resolver.</p></div>
+      <div class="step"><span class="mono">02</span><h3>Planejamento</h3><p>Definimos a estrutura, o conteúdo e o visual da solução ideal para você.</p></div>
+      <div class="step"><span class="mono">03</span><h3>Desenvolvimento</h3><p>Construímos o projeto com atualizações constantes para a sua aprovação.</p></div>
+      <div class="step"><span class="mono">04</span><h3>Entrega e suporte</h3><p>Publicamos e seguimos ao seu lado para ajustes e manutenção.</p></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta pad" id="contato">
+    <div class="mono label" style="justify-content:center">Contato</div>
+    <h2>
+      <span class="line"><span class="outline">Deixa com</span></span>
+      <span class="line"><span class="g">a DT.</span></span>
+    </h2>
+    <p class="reveal">Precisa de um site ou de ajuda com o seu computador? Fale com a gente e receba um atendimento rápido, online ou presencial.</p>
+    <a class="btn magnetic" href="https://www.instagram.com/dt.techsolutions/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+      Chamar no Instagram
+    </a>
+  </section>
+
+  <div class="footer-big" id="footerBig">dt.techsolutions</div>
+</main>
+
+<footer class="mono">
+  <span>© <span id="year"></span> dt.techsolutions</span>
+  <a href="https://www.instagram.com/dt.techsolutions/" target="_blank" rel="noopener">@dt.techsolutions</a>
+  <a href="#topo">Voltar ao topo ↑</a>
+</footer>
+
+<!-- WhatsApp: preencha o número em WHATSAPP_NUMBER (só dígitos, com DDI e DDD) -->
+<a class="wa magnetic" id="wa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <span class="wa-tip" id="waTip">WhatsApp em breve</span>
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
